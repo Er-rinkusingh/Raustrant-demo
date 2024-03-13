@@ -1,0 +1,223 @@
+.web {
+    font-size: 2rem;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    height: 30px;
+    
+}
+
+.nav::before {
+    content: "";
+    position: absolute;
+    background-color: grey;
+    height: 16%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    
+
+}
+
+.nav ul {
+    display: flex;
+
+
+}
+
+.nav ul li {
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+    
+
+}
+
+.nav ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 25px;
+       
+}
+
+.nav ul li a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    opacity: 1.0;
+   
+
+
+}
+
+.im {
+    margin-top: 1.5%;
+    height: 400px;
+    
+}
+
+.h-pri {
+    color: white;
+    font-size: 2.5rem;
+    word-break: break-all;
+}
+
+.para {
+    color: white;
+    line-height: 1.5;
+    font-size: 1.5rem;
+   
+}
+
+.h {
+    margin-top: -20%;
+    position: relative;
+}
+
+#Services {
+    display: flex;
+    margin-top: 5%;
+    height: 400px;
+    text-align: center;
+}
+
+#Services .boxes {
+    border: 2px solid black;
+    width: 35%;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: 0.5%;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+       
+}
+
+#Services .boxes img {
+    height: 130px;
+    width: 80%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+.txt {
+    text-align: center;
+    margin-top: 17%;
+    font-size: 40px;
+}
+
+.boxes1 {
+    border: 2px solid black;
+    width: 35%;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: 1%;
+    box-shadow: 0 0 2px 1px rgba(125, 193, 216, 0.5);
+
+}
+
+#Services .boxes1 img {
+    height: 130px;
+    width: 80%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+.boxes2 {
+    border: 2px solid black;
+    width: 35%;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: 1%;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    position: relative;
+    
+}
+
+#Services .boxes2 img {
+    height: 130px;
+    width: 80%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+
+}
+
+/* Our Client */
+.sec2{
+    display: flex;
+    text-align: center;  
+    
+}
+.cl{
+    text-align: center;
+    margin-top: -7%; 
+    font-size: 40px; 
+}
+.logo{
+    height: 200px;
+    width: 33px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.logo1{
+    height: 200px;
+    width: 33px;
+    margin-top: 4%;
+    margin-left: 28%;
+}
+.logo2{
+    height: 200px;
+    width: 33px;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+.contact{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 3%;
+}
+.con{
+    height: 230px;
+    /* border: 2px solid black; */
+}
+.no{
+    margin: 2%;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+.icon{
+    text-align: center;
+     
+}
+.icon a{
+    font-size: 40px;
+    margin: 30px;
+    opacity: 1;
+
+}
+.icon a:hover{
+    color: blue;
+    box-shadow: 0px 0px 15px blue;
+    
+
+}
